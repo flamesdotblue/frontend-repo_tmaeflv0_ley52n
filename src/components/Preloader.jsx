@@ -6,7 +6,6 @@ const Preloader = () => {
 
   useEffect(() => {
     const handleLoad = () => {
-      // Give a tiny delay for dramatic effect
       setTimeout(() => setIsLoading(false), 900);
     };
 
@@ -70,10 +69,9 @@ const Preloader = () => {
               animate={{ opacity: [0, 0.3, 0.15, 0.35, 0.2] }}
               transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
               style={{
-                backgroundImage:
-                  'radial-gradient( circle at 50% 50%, rgba(0,242,169,0.05), transparent 40% ),
+                backgroundImage: `radial-gradient( circle at 50% 50%, rgba(0,242,169,0.05), transparent 40% ),
                    repeating-linear-gradient(0deg, rgba(0,242,169,0.06) 0px, rgba(0,242,169,0.06) 1px, transparent 1px, transparent 12px),
-                   repeating-linear-gradient(90deg, rgba(0,242,169,0.06) 0px, rgba(0,242,169,0.06) 1px, transparent 1px, transparent 12px)'
+                   repeating-linear-gradient(90deg, rgba(0,242,169,0.06) 0px, rgba(0,242,169,0.06) 1px, transparent 1px, transparent 12px)`
               }}
             />
           </div>

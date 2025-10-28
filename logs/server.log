@@ -3,13 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 236 ms
+  VITE v5.4.20  ready in 261 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.1.4:3000/
-12:31:17 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/Preloader.jsx:74:95: ERROR: Unterminated string literal
-12:31:18 PM [vite] ✨ new dependencies optimized: framer-motion, @splinetool/react-spline, lucide-react
-12:31:18 PM [vite] ✨ optimized dependencies changed. reloading
-12:31:19 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/Preloader.jsx:74:95: ERROR: Unterminated string literal
